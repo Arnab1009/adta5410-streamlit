@@ -12,7 +12,7 @@ csv_path = BASE_DIR / "clean_retail_data.csv"
 df = pd.read_csv(csv_path)
 
 # ---------- App Config ----------
-st.set_page_config(page_title="Retail Profitability Dashboard", layout="wide")
+st.set_page_config(page_title="Retail Profitability Dashboard - ADTA 5410 : Team 2", layout="wide")
 
 # ---------- Introduction ----------
 st.title(" Retail Profitability Dashboard")
